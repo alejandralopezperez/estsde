@@ -1,6 +1,6 @@
 [![License:
-GPLv3](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
-[![Build Status](https://app.travis-ci.com/alejandralopezperez/estsde.svg?branch=develop)](https://app.travis-ci.com/alejandralopezperez/estsde)
+GPLv2](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
+[![Build Status](https://app.travis-ci.com/alejandralopezperez/estsde.svg?branch=main)](https://app.travis-ci.com/alejandralopezperez/estsde)
 
 # estsde
 
