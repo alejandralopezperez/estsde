@@ -10,6 +10,13 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r, echo = FALSE, results = 'asis'}
+cat(
+  badger::badge_license(license = "GPLv2", color = "blue",
+                        url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0")
+)
+```
+
 estsde
 ======
 

@@ -1,3 +1,6 @@
+[![License:
+GPLv3](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0)
+
 # estsde
 
 This software provides different parametric estimation methods for
