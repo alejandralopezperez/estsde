@@ -1,15 +1,14 @@
 Package: estsde
 Type: Package
-Title: Parametric estimation of SDE
+Title: Parametric Estimation of SDE
 Version: 0.0.0.9000
 Author: A. Lopez-Perez
 Maintainer: A. Lopez-Perez <alejandralopez.perez@usc.es>
-Description: provides different parametric estimation methods for stochastic 
+Description: Provides different parametric estimation methods for stochastic 
     differential equations (SDE), namely the Vasicek and CKLS models, as well 
 	as functions to simulate paths of the SDEs.
 License: GPL-2
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.1
 Roxygen: list(old_usage = TRUE)
 Depends:
