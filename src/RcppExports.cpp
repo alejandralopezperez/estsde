@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // GMM_CKLS
 Rcpp::List GMM_CKLS(Rcpp::NumericVector r, double delta, Rcpp::NumericVector guess, int maxiter, double tol1, double tol2);
 RcppExport SEXP _estsde_GMM_CKLS(SEXP rSEXP, SEXP deltaSEXP, SEXP guessSEXP, SEXP maxiterSEXP, SEXP tol1SEXP, SEXP tol2SEXP) {
