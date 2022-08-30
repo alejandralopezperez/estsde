@@ -6,20 +6,20 @@ Author: A. Lopez-Perez
 Maintainer: A. Lopez-Perez <alejandralopez.perez@usc.es>
 Description: Provides different parametric estimation methods for stochastic 
     differential equations (SDE), namely the Vasicek and CKLS models, as well 
-	as functions to simulate paths of the SDEs.
+    as functions to simulate paths of the SDEs.
 License: GPL-2
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.1
 Roxygen: list(old_usage = TRUE)
 Depends:
     R (>= 3.6.0),
     Rcpp
 LinkingTo: 
     Rcpp, 
-	RcppArmadillo, 
-	nloptr
+    RcppArmadillo, 
+    nloptr
 Imports: 
     stats,
-	nloptr,
-	nlme,
-	numDeriv
+    nloptr,
+    nlme,
+    numDeriv

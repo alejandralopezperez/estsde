@@ -4,7 +4,8 @@
 \alias{est.VAS.MCMC}
 \title{MCMC estimation for the Vasicek model}
 \usage{
-est.VAS.MCMC(X, Delta = deltat(X), par = NULL, niter = 2000, burn_in = 500)
+est.VAS.MCMC(X, Delta = deltat(X), par = NULL, niter = 2000,
+  burn_in = 500)
 }
 \arguments{
 \item{X}{a numeric vector, the sample path of the SDE.}

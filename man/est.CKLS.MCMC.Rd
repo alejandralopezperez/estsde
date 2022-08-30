@@ -4,7 +4,8 @@
 \alias{est.CKLS.MCMC}
 \title{MCMC estimation for the CKLS model}
 \usage{
-est.CKLS.MCMC(X, Delta = deltat(X), par = NULL, niter = 4000, burn_in = 1000)
+est.CKLS.MCMC(X, Delta = deltat(X), par = NULL, niter = 4000,
+  burn_in = 1000)
 }
 \arguments{
 \item{X}{a numeric vector, the sample path of the SDE.}
